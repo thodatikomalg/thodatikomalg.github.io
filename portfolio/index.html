@@ -1,0 +1,137 @@
+<!Doctype html>
+    <html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Komal's Portfolio Website</title>
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <!-- normalize to make websites looks same in all browsers -->
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+              integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+              rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Insert my image">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__list"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__list"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__list"><a href="#services" class="nav__link">Skill Set</a></li>
+                    <li class="nav__list"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section_header section_header-intro">
+                Hi, I am <strong>Komal Thodati</strong>
+            </h1>
+            <p class="section_subtitle section_subtitle-intro">Automation Developer</p>
+            <img src="images/KomalProfile1.jpg" width="300" alt="Komal's intro picture" class="intro_image">
+        </section>
+
+        <!--My Services -->
+        <section class="my-services" id="services">
+            <h2 class="section_header section_header-services">What I do</h2>
+            <div class="services">
+                <div class = "service">
+                    <h3>Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class = "service">
+                    <h3>Automate</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class = "service">
+                    <h3>Test</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <a class="button" href="#work">My Work</a>
+        </section>
+
+        <!-- About Me -->
+        <section class="about-me" id="about">
+            <h2 class="section_header section_header-about">Who I am</h2>
+            <p class="section_subtitle section_subtitle-about">Test Automation Designer & Developer</p>
+
+            <div class="about-me_body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <img src="images/komal2.jpg" class= "about-me_image" alt="komal and oreo">
+
+        </section>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section_header section_header-my-work">My Work</h2>
+            <p class="section_subtitle section_subtitle-my-work">Selections from my range of work</p>
+
+            <div class="portfolio">
+                <div class= "p1">
+                    <a href="portfolio-item.html#cvs" class = portfolio_item>
+                        <img src="images/portfolio/cvs.png" alt=""  class="portfolio_img">
+                    </a>
+                </div>
+                <div class= "p2">
+                    <a href="portfolio-item.html#appium" class = portfolio_item>
+                        <img src="images/portfolio/appium-logo.png" alt="" class="portfolio_img">
+                    </a>
+                </div>
+                <div class= "p3">
+                    <a href="portfolio-item.html#royal" class = portfolio_item>
+                        <img src="images/portfolio/royal-logo.png" alt="" class="portfolio_img">
+                    </a>
+                </div>
+                <div class= "p4">
+                    <a href="portfolio-item.html#hadoop" class = portfolio_item>
+                        <img src="images/portfolio/hadoop.png" alt="" class="portfolio_img">
+                    </a>
+                </div>
+                <div class= "p5">
+                    <a href="portfolio-item.html#nationwide" class = portfolio_item>
+                        <img src="images/portfolio/Nationwide.jpg" alt="" class="portfolio_img">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <a href="mailto:thodatikomalg@gmail.com" class="footer__link">thodatikomalg@gmail.com</a>
+            <ul class="social_list">
+                <li class="social_list-link"><a href="https://www.linkedin.com/in/komal-gargi-t/" target = "_blank">
+                    <i class="fab fa-linkedin"></i></a>
+                </li>
+                <li class="social_list-link"><a href="https://www.github.com/thodatikomalg" target = "_blank">
+                    <i class="fab fa-github"></i></a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+    </html>
