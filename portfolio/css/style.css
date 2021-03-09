@@ -8,11 +8,13 @@
 :root{
         --ff-primary: 'Source Sans Pro', sans-serif;
         --ff-secondary: 'Source Code Pro', monospace;
+        --ff-name:
+
 
         --fw-reg: 300;
         --fw-bold: 900;
 
-        --clr-light: #fff;
+        --clr-light: hsl(0, 0%, 96%);
         --clr-dark: #303030;
         --clr-accent: #16e0bd;
 
@@ -40,7 +42,9 @@
 html { scroll-behavior: smooth}
 
 body{
-    background: var(--clr-light);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
     color: var(--clr-dark);
     margin: 0
     font-family: var(--ff-primary);
@@ -130,8 +134,16 @@ header{
     padding: 1em
 }
 
-.logo{
-  max-width: 100px;
+.logo {
+  background-image: url(../images/logo.jpg);
+  width: 75px;
+  height: 75px;
+  background-size: contain;
+  background-blend-mode: screen;
+}
+
+#home {
+    text-shadow: 4px 4px 0 #fff;
 }
 
 .nav{
@@ -179,6 +191,7 @@ header{
     right: 1em;
     top: 1em;
     z-index: 1000;
+    position: fixed;
 }
 
 
